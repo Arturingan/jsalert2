@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday Pa!</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+</head>
+
+<style>
+	body {
+		background-color: #363636;
+	}
+
+	#btnAlert {
+		position: absolute;
+		bottom: 45%;
+		left: 45%;
+		color: black;
+		height: 200px;
+		width: 200px;
+
+	}
+</style>
+<body>
+
+	<button id="btnAlert" class="btn btn-warning"><h1>Click Here</h1></button>
+
+<script>
+	$('#btnAlert').click(function(e){	
+	Swal.fire({
+	  title: 'Happy Birthday Pa!',
+	  text: '-R2r Jr.',
+	  imageUrl: 'pic1.jpg',
+	  imageWidth: 400,	  
+	  imageAlt: 'Custom image',
+	  animation: true
+	})
+});
+
+</script>
+
+
+
+</body>
+</html>
